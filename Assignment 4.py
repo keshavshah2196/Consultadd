@@ -6,7 +6,7 @@ def rev_str(strl):
     rstr=" "
     l=len(strl)
     while(l>0):
-        rstr+=strl[l-1]
+        rstr+=strl[l-1] 
         l-=1
     return rstr
     print("Original String",strl)
@@ -45,7 +45,7 @@ def uniqu_list(av):
 print(uniqu_list([12,76,54.6,9/35,"hello","asc","asc",34,6+7j]))
 
 
-#Q4. Doubt in example wit hyphen
+#Q4. Doubt in example wit hyphen, Can I get an example os a specific input and its desired output?
 
 #Q5.
 print("---")
